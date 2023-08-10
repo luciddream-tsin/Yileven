@@ -1,6 +1,15 @@
 @include-when-export url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Source+Sans+Pro&display=swap');
 
 
+
+
+@font-face {
+  font-family: 'IntelOne Mono';
+  src: url('yileven/intelone-mono-regular.ttf') format('ttf');
+  font-weight: 300;
+}
+
+
 @font-face {
   font-family: 'MiSans';
   src: url('yileven/MiSans-Light.ttf') format('ttf');
@@ -76,12 +85,12 @@
   --main-1: #330007;
 
   /* 字体 */
-  --font-normal: 'Sometype Mono','MiSans', '等距更纱黑体 SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
-  --font-code: 'Sometype Mono','MiSans', '等距更纱黑体 SC', 'Microsoft YaHei', sans-serif;
+  --font-normal: 'IntelOne Mono','MiSans', '等距更纱黑体 SC','Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
+  --font-code: 'IntelOne Mono','MiSans', '等距更纱黑体 SC', 'Microsoft YaHei', sans-serif;
 }
 
 html {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 body {
