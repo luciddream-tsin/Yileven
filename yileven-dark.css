@@ -84,6 +84,11 @@
   --main-2: #590009;
   --main-1: #330007;
 
+  --eleven-1: #5546FF;
+  --eleven-2: #00FF44;
+
+
+
   /* 字体 */
   --font-normal: 'IntelOne Mono','MiSans', '等距更纱黑体 SC','Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
   --font-code: 'IntelOne Mono','MiSans', '等距更纱黑体 SC', 'Microsoft YaHei', sans-serif;
@@ -387,13 +392,15 @@ ol:last-child {
 /*--- 引用块 ---*/
 blockquote {
   position: relative;
-  border: none;
-  border-left: 2px solid var(--main-6);
+  border: dashed 1px;
+  border-left: 1px solid var(--mid-10);
+  border-radius: 10px; /* 添加圆角属性 */
+
   color: var(--mid-8);
   font-size: 1em;
   font-style: normal;
-  padding: 24px 16px 12px;
-  margin: 24px 0 36px;
+  padding: 10px 16px 12px;
+  margin: 10px 0 15px;
   line-height: 1.6;
   text-indent: 0;
 }
@@ -407,11 +414,11 @@ blockquote a {
 }
 
 blockquote:before {
-  content: '“';
+  content: '```'; /* 左上角的标志 */
   position: absolute;
   left: 12px;
   top: 0;
-  color: var(--main-6);
+  color: var(--eleven-1);
   font-size: 2em;
   font-family: Arial, serif;
   line-height: 1em;
