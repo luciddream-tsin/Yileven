@@ -331,8 +331,8 @@ hr {
   width: 100%;
   height: 1px;
   padding: 0;
-  margin: 46px auto 64px;
-  background-color: var(--main-4);
+  margin: 4px auto 4px;
+  background-color: var(--mid-8);
   border: 0;
   overflow: hidden;
   box-sizing: content-box;
